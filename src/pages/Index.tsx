@@ -1,6 +1,7 @@
+
 import { Navigation } from "@/components/Navigation"
 import { HeroSection } from "@/components/HeroSection"
-import { InstitutionalAIChat } from "@/components/ui/v0-ai-chat"
+import { DebtIntelligenceChat } from "@/components/DebtIntelligenceChat"
 import { StatsSection } from "@/components/StatsSection"
 import { FeaturesSection } from "@/components/FeaturesSection"
 import { TestimonialSection } from "@/components/TestimonialSection"
@@ -13,9 +14,9 @@ const Index = () => {
       <Navigation />
       <HeroSection />
       
-      {/* AI Chat Assistant */}
+      {/* Private Debt Intelligence Platform */}
       <section className="py-20 bg-background">
-        <InstitutionalAIChat />
+        <DebtIntelligenceChat />
       </section>
       <StatsSection />
       <FeaturesSection />

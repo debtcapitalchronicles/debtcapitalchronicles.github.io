@@ -37,14 +37,14 @@ function StatItem({ value, label, prefix = "", suffix = "", delay = 0 }: StatIte
   
   const formatValue = (val: number) => {
     if (val >= 1000) {
-      return `${prefix}${(val / 1000).toFixed(1)}K${suffix}`
+      return `${prefix}${(val / 1000).toFixed(1)}T${suffix}`
     }
     return `${prefix}${val}${suffix}`
   }
   
   return (
-    <div className="text-center">
-      <div className="text-4xl md:text-5xl font-bold bg-gradient-text bg-clip-text text-transparent mb-2">
+    <div className="text-center animate-counter">
+      <div className="text-4xl md:text-5xl font-display font-bold bg-gradient-text bg-clip-text text-transparent mb-2">
         {numericValue >= 1000 ? formatValue(currentValue) : `${prefix}${currentValue}${suffix}`}
       </div>
       <div className="text-muted-foreground font-medium">{label}</div>
@@ -54,36 +54,45 @@ function StatItem({ value, label, prefix = "", suffix = "", delay = 0 }: StatIte
 
 export function StatsSection() {
   return (
-    <section className="py-20 bg-gradient-hero relative overflow-hidden">
+    <section className="py-32 bg-gradient-hero relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-10 left-1/3 w-72 h-72 bg-gradient-radial from-accent-purple/30 to-transparent rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-10 right-1/3 w-64 h-64 bg-gradient-radial from-accent-cyan/20 to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-10 left-1/3 w-72 h-72 bg-gradient-radial from-accent-gold/30 to-transparent rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-10 right-1/3 w-64 h-64 bg-gradient-radial from-accent-muted-gold/20 to-transparent rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
       </div>
       
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-accent-cream mb-6">
+            Market Intelligence
+            <span className="block bg-gradient-text bg-clip-text text-transparent">
+              by the Numbers
+            </span>
+          </h2>
+        </div>
+        
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-16">
           <StatItem 
-            value="4200" 
-            label="Billion AUM Tracked"
+            value="2400" 
+            label="Private Debt AUM Tracked"
             prefix="$"
             suffix="B+"
             delay={0}
           />
           <StatItem 
-            value="12400" 
-            label="Strategies Analyzed"
+            value="8900" 
+            label="Credit Deals Analyzed"
             suffix="+"
             delay={200}
           />
           <StatItem 
-            value="847" 
-            label="Hedge Funds"
+            value="450" 
+            label="Direct Lenders"
             suffix="+"
             delay={400}
           />
           <StatItem 
-            value="98" 
+            value="97" 
             label="Data Accuracy"
             suffix="%"
             delay={600}
