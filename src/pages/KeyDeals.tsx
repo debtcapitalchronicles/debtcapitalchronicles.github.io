@@ -6,44 +6,44 @@ import { TrendingUp, Building2, DollarSign, ArrowRight, ExternalLink } from "luc
 
 const keyTransactions = [
   {
-    title: "Citadel Securities Block Trade Execution",
-    amount: "$47.2B",
+    title: "Apollo Global Private Credit Fund IX",
+    amount: "$24.7B",
     date: "March 2024",
-    sector: "Equity Markets",
-    description: "Citadel Securities executes record block trade for major pension fund rebalancing, demonstrating market-making capabilities at scale.",
-    status: "Executed",
-    allocator: "Citadel Securities",
-    type: "Block Trade"
+    sector: "Direct Lending",
+    description: "Apollo closes largest private credit fund to date, targeting middle-market direct lending opportunities across North America and Europe.",
+    status: "Closed",
+    allocator: "Apollo Global",
+    type: "Fund Closing"
   },
   {
-    title: "Millennium Management Tech Sector Rotation",
-    amount: "$18.4B",
+    title: "Blackstone Infrastructure Debt Platform",
+    amount: "$15.2B",
     date: "February 2024",
-    sector: "Technology",
-    description: "Millennium reallocates capital from growth tech to value tech opportunities, reducing gross exposure by 15%.",
+    sector: "Infrastructure",
+    description: "Blackstone expands infrastructure debt platform with focus on renewable energy and digital infrastructure financing.",
     status: "Completed",
-    allocator: "Millennium",
-    type: "Sector Rotation"
+    allocator: "Blackstone",
+    type: "Platform Launch"
   },
   {
-    title: "Renaissance Technologies Medallion Fund",
-    amount: "$23.1B",
+    title: "Ares Capital Corporation Deployment",
+    amount: "$8.9B",
     date: "January 2024",
-    sector: "Quantitative",
-    description: "Medallion Fund achieves 76% net return for 2023, continuing exceptional performance streak in systematic strategies.",
-    status: "Reported",
-    allocator: "Renaissance",
-    type: "Performance"
+    sector: "Middle Market",
+    description: "Ares deploys record quarterly capital into middle-market direct lending, achieving 12.8% gross portfolio yield.",
+    status: "Deployed",
+    allocator: "Ares Capital",
+    type: "Capital Deployment"
   },
   {
-    title: "Bridgewater Pure Alpha Fund Flows",
-    amount: "$12.8B",
+    title: "Owl Rock Technology Financing III",
+    amount: "$6.4B",
     date: "December 2023",
-    sector: "Macro",
-    description: "Bridgewater Pure Alpha receives significant institutional inflows following strong macro positioning during rate environment shifts.",
+    sector: "Technology",
+    description: "Owl Rock closes technology-focused private credit fund, targeting software and tech-enabled services companies.",
     status: "Completed",
-    allocator: "Bridgewater",
-    type: "Capital Raise"
+    allocator: "Owl Rock",
+    type: "Sector Fund"
   }
 ]
 
@@ -78,12 +78,12 @@ export default function KeyDeals() {
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-8 leading-tight">
               Key
               <span className="block bg-gradient-text bg-clip-text text-transparent">
-                Moves
+                Deals
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-accent-platinum mb-12 leading-relaxed">
-              Track major hedge fund transactions, position changes, and strategic moves 
-              driving alpha generation across global markets.
+              Track major private debt transactions, fund closings, and strategic deployments 
+              driving performance across credit markets.
             </p>
           </div>
         </div>
@@ -126,10 +126,10 @@ export default function KeyDeals() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">
-              Recent Major Allocations
+              Recent Major Transactions
             </h2>
             <p className="text-xl text-accent-platinum">
-              Latest significant institutional investor moves and capital allocations
+              Latest significant private debt fund closings and capital deployments
             </p>
           </div>
 
@@ -214,13 +214,13 @@ export default function KeyDeals() {
           
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="bg-card/50 backdrop-blur-sm rounded-lg p-8 shadow-lift border border-accent-gold/20">
-              <h3 className="text-2xl font-bold text-white mb-6">Allocation by Asset Class</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">Allocation by Credit Strategy</h3>
               <div className="space-y-4">
                 {[
-                  { sector: "Private Equity", percentage: 42, color: "accent-gold" },
-                  { sector: "Real Estate", percentage: 28, color: "accent-blue" },
-                  { sector: "Infrastructure", percentage: 18, color: "accent-platinum" },
-                  { sector: "Hedge Funds", percentage: 12, color: "accent-navy" }
+                { sector: "Direct Lending", percentage: 45, color: "accent-gold" },
+                { sector: "Infrastructure Debt", percentage: 25, color: "accent-blue" },
+                { sector: "Distressed Credit", percentage: 18, color: "accent-platinum" },
+                { sector: "Real Estate Debt", percentage: 12, color: "accent-navy" }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center justify-between">
                     <div className="flex items-center">
@@ -252,7 +252,7 @@ export default function KeyDeals() {
                 <div className="w-8 bg-gradient-gold h-44 rounded-t"></div>
               </div>
               <div className="mt-4 text-center">
-                <span className="text-accent-platinum text-sm">Sustained growth in institutional allocations</span>
+                <span className="text-accent-platinum text-sm">Sustained growth in private debt deployments</span>
               </div>
             </div>
           </div>

@@ -25,9 +25,9 @@ interface Article {
 const articles: Article[] = [
   {
     id: '1',
-    category: 'Strategy Analysis',
-    title: 'Long/Short Equity Strategies Outperform in Volatile Markets',
-    excerpt: 'Hedge funds employing long/short equity strategies generate 18.3% alpha during Q4 market turbulence.',
+    category: 'Credit Analysis',
+    title: 'Direct Lending Yields Reach 5-Year Highs Amid Rate Environment',
+    excerpt: 'Private credit managers achieve 14.2% gross yields as floating-rate structures benefit from higher base rates.',
     author: 'Sarah Mitchell',
     publishedAt: 'Jan 15, 2024',
     readTime: '5 min read',
@@ -35,118 +35,115 @@ const articles: Article[] = [
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475',
     heroImage: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
     content: `
-      <p>Long/short equity hedge funds have demonstrated exceptional performance during the recent market volatility, with top-tier managers generating significant alpha through strategic positioning and risk management.</p>
+      <p>Direct lending funds have achieved their highest gross yields in five years, with top-tier managers reporting average gross portfolio yields of 14.2% as of Q4 2023.</p>
       
-      <h3>Performance Metrics</h3>
-      <p>Leading long/short equity funds achieved an average 18.3% net return in Q4 2023, substantially outperforming the S&P 500's 11.2% return during the same period. This outperformance was driven by effective short positioning in overvalued growth stocks and concentrated long positions in value opportunities.</p>
+      <h3>Yield Enhancement Drivers</h3>
+      <p>The current rate environment has proven highly favorable for private credit strategies employing floating-rate structures. With SOFR + spreads now averaging 11-13% for middle-market direct lending, managers are capturing significant yield expansion from the Federal Reserve's rate hiking cycle.</p>
       
-      <p>Hedge funds with market-neutral strategies showed particularly strong risk-adjusted returns, with Sharpe ratios averaging 2.4 compared to the market's 1.1.</p>
+      <p>Credit spreads have remained relatively stable at 550-650 basis points for traditional middle-market loans, while base rates provide the primary yield enhancement mechanism.</p>
       
-      <h3>Strategic Positioning</h3>
-      <p>Successful managers concentrated short positions in high-multiple technology stocks and consumer discretionary names facing margin compression. Long positions focused on quality companies trading at discounts due to temporary headwinds.</p>
+      <h3>Risk-Adjusted Performance</h3>
+      <p>Net returns after fees are averaging 11.8% across the asset class, substantially outperforming high-yield bonds (8.4%) and leveraged loans (9.1%) on a risk-adjusted basis. Default rates remain manageable at 1.2% by number of companies.</p>
       
-      <p>Position sizing and dynamic hedging proved crucial, with top performers maintaining gross exposure between 120-180% while keeping net exposure flexible based on market conditions.</p>
+      <p>The illiquidity premium embedded in private credit continues to provide attractive compensation for patient capital, with institutional investors extending average hold periods to 4-5 years.</p>
       
-      <h3>Looking Forward</h3>
-      <p>With continued market uncertainty ahead, long/short equity strategies are well-positioned to capitalize on increased dispersion and volatility. Managers emphasizing fundamental research and risk management should continue outperforming in 2024.</p>
+      <h3>Market Outlook</h3>
+      <p>Looking ahead, managers expect yields to remain elevated through 2024, particularly for new vintages. However, credit selection and underwriting discipline will become increasingly important as economic uncertainty persists.</p>
     `
   },
   {
     id: '2',
-    category: 'Market Analysis',
-    title: 'Multi-Manager Platforms Drive Industry Consolidation',
-    excerpt: 'Large multi-manager hedge funds continue attracting capital while smaller single-manager funds face redemptions.',
+    category: 'Market Trends',
+    title: 'Infrastructure Debt Emerges as Institutional Favorite',
+    excerpt: 'Long-duration infrastructure financing attracts pension funds seeking liability-matching assets with ESG benefits.',
     author: 'Michael Torres',
     publishedAt: 'Jan 14, 2024',
     readTime: '4 min read',
-    badgeColor: 'bg-red-500/20 text-red-300',
+    badgeColor: 'bg-blue-500/20 text-blue-300',
     image: 'https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a',
     heroImage: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625',
     content: `
-      <p>The hedge fund industry continues consolidating around large multi-manager platforms, with Citadel, Millennium, and Point72 capturing an outsized share of investor flows while smaller funds struggle to maintain assets.</p>
+      <p>Infrastructure debt has emerged as a preferred allocation among pension funds and insurance companies seeking long-duration assets that match their liability profiles while providing inflation protection.</p>
       
-      <h3>Capital Flow Dynamics</h3>
-      <p>Multi-manager platforms attracted $47 billion in net inflows during 2023, representing 68% of total industry inflows. These platforms benefit from diversified strategies, institutional infrastructure, and ability to attract top talent.</p>
+      <h3>Allocation Trends</h3>
+      <p>Institutional investors allocated $47 billion to infrastructure debt strategies in 2023, representing a 35% increase from the previous year. Pension funds led this growth, with allocations averaging 8-12% of alternatives portfolios.</p>
       
-      <p>Single-manager funds under $1 billion AUM experienced net outflows of $23 billion, as investors prioritize operational due diligence, risk management capabilities, and track record consistency.</p>
+      <p>The asset class offers attractive characteristics including predictable cash flows, inflation linkage, and tenor matching for long-term liabilities extending 15-30 years.</p>
       
-      <h3>Competitive Advantages</h3>
-      <p>Large platforms leverage economies of scale in technology, risk management, and talent acquisition. Their ability to offer multiple strategies under one roof appeals to institutional investors seeking diversification with reduced operational complexity.</p>
+      <h3>ESG Integration</h3>
+      <p>Renewable energy infrastructure represents 60% of new deployments, aligning with institutional ESG mandates. Solar, wind, and battery storage projects offer compelling risk-adjusted returns with strong regulatory support.</p>
       
-      <p>Smaller funds face increasing pressure on fees, operational costs, and institutional access. Many are choosing to either join platforms as portfolio managers or focus on niche strategies where scale isn't paramount.</p>
+      <p>Green infrastructure debt provides additional benefits through sustainability-linked pricing and regulatory incentives, enhancing total returns while meeting ESG objectives.</p>
       
-      <h3>Investment Implications</h3>
-      <p>This consolidation trend suggests continued outperformance by mega-funds with strong infrastructure and talent retention capabilities. Investors should focus on platforms with proven ability to scale while maintaining performance consistency across strategies.</p>
+      <h3>Risk Considerations</h3>
+      <p>While infrastructure debt offers stability, managers must navigate construction risk, regulatory changes, and technology obsolescence. Successful strategies emphasize operational assets with established cash flows and creditworthy counterparties.</p>
     `
   },
   {
     id: '3',
-    category: 'Market Trends',
-    title: 'ESG Investment Growth Accelerates Globally',
-    excerpt: 'Environmental, social, and governance focused investments gaining mainstream adoption across institutional portfolios.',
+    category: 'Regulatory Impact',
+    title: 'Basel III Endgame Drives Bank Lending Retreat',
+    excerpt: 'Proposed banking regulations accelerate shift from traditional bank lending to private credit markets.',
     author: 'Emma Johnson',
     publishedAt: 'Jan 13, 2024',
     readTime: '6 min read',
-    badgeColor: 'bg-blue-500/20 text-blue-300',
+    badgeColor: 'bg-red-500/20 text-red-300',
     image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
     heroImage: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21',
     content: `
-      <p>Environmental, social, and governance (ESG) investing has moved from niche strategy to mainstream requirement, with institutional investors allocating record amounts to sustainable investment strategies.</p>
+      <p>The proposed Basel III Endgame regulations are accelerating the structural shift from traditional bank lending to private credit markets, creating unprecedented opportunities for direct lending managers.</p>
       
-      <h3>Institutional Adoption</h3>
-      <p>Major pension funds and sovereign wealth funds now mandate ESG criteria for all investment decisions. This shift has created a massive influx of capital into companies demonstrating strong environmental and social practices.</p>
+      <h3>Regulatory Catalyst</h3>
+      <p>New capital requirements will increase the cost of bank lending to middle-market companies by an estimated 20-30%, making private credit increasingly competitive. Regional banks, traditionally active in middle-market lending, face the greatest pressure.</p>
       
-      <p>The total assets under management in ESG-focused funds reached $2.3 trillion globally, representing an 18.5% increase from the previous quarter.</p>
+      <p>Risk-weighted asset calculations under the new framework particularly impact leveraged lending and real estate financing, core areas where private credit provides alternative solutions.</p>
       
-      <h3>Performance Metrics</h3>
-      <p>Contrary to earlier concerns about returns, ESG-focused portfolios have demonstrated competitive performance. Many ESG funds outperformed traditional benchmarks by 2-4% annually over the past three years.</p>
+      <h3>Market Displacement</h3>
+      <p>We estimate $200-300 billion in lending capacity will migrate from banks to private credit over the next 3-5 years. This represents a structural tailwind for the asset class, potentially doubling the addressable market.</p>
       
-      <p>Companies with strong ESG ratings also show lower volatility and better risk-adjusted returns, making them attractive to institutional investors focused on long-term stability.</p>
+      <p>Companies previously reliant on bank relationships are increasingly viewing private credit as a primary financing source rather than alternative capital.</p>
       
-      <h3>Future Outlook</h3>
-      <p>Regulatory changes across major markets continue to favor ESG investments. The European Union's sustainable finance disclosure regulation and similar initiatives in other jurisdictions are driving additional capital toward ESG-compliant investments.</p>
+      <h3>Competitive Dynamics</h3>
+      <p>The regulatory-driven market share shift benefits established private credit managers with scale, operational infrastructure, and established origination capabilities. First-mover advantage in relationship capture will prove crucial.</p>
       
-      <p>We expect this trend to accelerate as younger generations inherit wealth and prioritize sustainable investing approaches.</p>
+      <p>We expect pricing power to improve as supply constraints emerge, potentially expanding net spreads by 50-100 basis points over the medium term.</p>
     `
   },
   {
     id: '4',
-    category: 'Key Deals',
-    title: 'TechCorp Acquires CloudVision in $2.4B Strategic Move',
-    excerpt: 'Major acquisition in cloud infrastructure space signals consolidation trend in enterprise software.',
+    category: 'Technology Sector',
+    title: 'Software-as-a-Service Lending Reaches New Sophistication',
+    excerpt: 'Private credit managers develop specialized underwriting for recurring revenue business models.',
     author: 'Jennifer Chen',
     publishedAt: 'Jan 15, 2024',
     readTime: '6 min read',
-    badgeColor: 'bg-blue-500/20 text-blue-300',
+    badgeColor: 'bg-purple-500/20 text-purple-300',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
     heroImage: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7',
     content: `
-      <p>TechCorp's $2.4 billion acquisition of CloudVision represents more than just a large transaction—it signals a fundamental shift in how enterprise software companies are positioning for the next phase of cloud computing evolution.</p>
+      <p>Private credit managers are developing increasingly sophisticated approaches to Software-as-a-Service (SaaS) company financing, recognizing the unique cash flow characteristics and growth dynamics of recurring revenue models.</p>
       
-      <h3>Strategic Rationale</h3>
-      <p>CloudVision's proprietary edge computing platform complements TechCorp's existing cloud infrastructure perfectly. The acquisition gives TechCorp instant access to CloudVision's 500+ enterprise clients and their cutting-edge distributed computing technology.</p>
+      <h3>Specialized Underwriting</h3>
+      <p>Leading managers now employ SaaS-specific metrics including Annual Recurring Revenue (ARR), Customer Acquisition Cost (CAC), and Net Revenue Retention in credit analysis. These metrics provide better predictive power than traditional financial statements for subscription-based businesses.</p>
       
-      <p>The deal is expected to generate $200 million in annual synergies within 18 months, primarily through cross-selling opportunities and operational efficiencies.</p>
+      <p>Covenant structures have evolved to reflect SaaS business models, emphasizing ARR growth rates, customer concentration, and churn metrics rather than traditional leverage ratios.</p>
       
-      <h3>Market Impact</h3>
-      <p>This acquisition has immediate implications for the broader cloud infrastructure market. Competitors like AWS, Microsoft Azure, and Google Cloud are now under pressure to enhance their edge computing capabilities to maintain market share.</p>
+      <h3>Attractive Fundamentals</h3>
+      <p>SaaS companies offer compelling credit characteristics including predictable cash flows, high gross margins (typically 75-85%), and strong customer retention. Default rates among established SaaS borrowers remain below 1%.</p>
       
-      <p>The premium paid—42% above CloudVision's trading price—reflects the strategic value of edge computing capabilities in an increasingly distributed computing landscape.</p>
+      <p>The asset-light nature of SaaS businesses requires enhanced focus on management quality, market positioning, and competitive moats in credit decisions.</p>
       
-      <h3>Industry Consolidation</h3>
-      <p>We expect this deal to trigger additional M&A activity in the cloud infrastructure space. Smaller players with specialized technologies are likely acquisition targets as major cloud providers seek to build comprehensive platforms.</p>
+      <h3>Market Opportunity</h3>
+      <p>The SaaS lending market has grown to $12 billion annually, with private credit capturing increasing share from traditional banks lacking specialized expertise. Successful managers report 200-300 basis points higher spreads compared to traditional industries.</p>
       
-      <p>For investors, this trend creates opportunities in companies with unique cloud technologies but also increases competitive pressures on traditional infrastructure providers.</p>
-      
-      <h3>Financial Analysis</h3>
-      <p>The acquisition is expected to be accretive to TechCorp's earnings within 12 months, with the combined entity projecting 25% revenue growth for the next two years. The deal was financed through a combination of cash and stock, maintaining TechCorp's strong balance sheet position.</p>
+      <p>Growth capital financing for SaaS companies represents a particular opportunity, combining moderate leverage with strong growth prospects and exit potential.</p>
     `
   },
   {
     id: '5',
-    category: 'Key Deals',
-    title: 'GreenTech Closes $850M Series C for Renewable Revolution',
-    excerpt: 'Renewable energy startup closes massive funding round led by climate-focused venture capital.',
+    category: 'Healthcare Finance',
+    title: 'Healthcare Real Estate Debt Gains Institutional Favor',
+    excerpt: 'Medical office and senior housing debt provides defensive characteristics with demographic tailwinds.',
     author: 'David Kim',
     publishedAt: 'Jan 12, 2024',
     readTime: '5 min read',
@@ -154,502 +151,274 @@ const articles: Article[] = [
     image: 'https://images.unsplash.com/photo-1458668383970-8ddd3927deed',
     heroImage: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843',
     content: `
-      <p>GreenTech's record-breaking $850 million Series C funding round marks a watershed moment for renewable energy investment, signaling institutional confidence in next-generation clean technology solutions.</p>
+      <p>Healthcare real estate debt has emerged as a favored allocation among institutional investors seeking defensive characteristics and demographic-driven growth in an uncertain economic environment.</p>
       
-      <h3>Funding Details</h3>
-      <p>The round was led by Climate Capital Partners with participation from major pension funds, sovereign wealth funds, and strategic corporate investors. This brings GreenTech's total funding to $1.2 billion and values the company at $4.5 billion.</p>
+      <h3>Sector Fundamentals</h3>
+      <p>Medical office buildings and senior housing properties benefit from aging demographics, with the 65+ population growing 3.2% annually through 2030. These properties typically feature long-term leases with healthcare operators and strong location barriers to entry.</p>
       
-      <p>The funding will accelerate GreenTech's innovative solar panel manufacturing technology, which promises 40% higher efficiency rates compared to traditional panels.</p>
+      <p>Occupancy rates for quality healthcare real estate remain elevated at 92-95%, providing stable cash flows for debt investors even during economic downturns.</p>
       
-      <h3>Technology Innovation</h3>
-      <p>GreenTech's breakthrough lies in their perovskite-silicon tandem solar cells, which achieve 31% efficiency compared to the industry standard of 22%. This technology breakthrough has the potential to dramatically reduce the cost per watt of solar energy.</p>
+      <h3>Credit Profile</h3>
+      <p>Healthcare real estate debt offers attractive risk-adjusted returns with gross yields averaging 8-11% depending on property type and leverage. Medical office properties anchored by hospital systems provide particularly stable cash flows.</p>
       
-      <p>The company has already secured manufacturing partnerships in three countries and expects to begin commercial production by Q3 2024.</p>
+      <p>Senior housing represents higher yields (11-14%) but requires specialized underwriting of operator quality, local market dynamics, and regulatory environment.</p>
       
-      <h3>Market Opportunity</h3>
-      <p>The global solar panel market is projected to reach $223 billion by 2026, driven by government incentives and corporate sustainability commitments. GreenTech's superior efficiency technology positions them to capture significant market share in this growing sector.</p>
+      <h3>ESG Alignment</h3>
+      <p>Healthcare real estate financing aligns with institutional ESG objectives by supporting critical community infrastructure. Many properties incorporate sustainability features and serve essential social needs.</p>
       
-      <p>Early customer commitments already total $2.1 billion in future orders, providing strong revenue visibility for the next three years.</p>
-      
-      <h3>Investment Implications</h3>
-      <p>This funding round demonstrates the maturation of climate technology as an asset class. Large institutional investors are now viewing renewable energy investments as both financially attractive and strategically necessary.</p>
-      
-      <p>We expect continued high valuations for companies with breakthrough clean technology, particularly those addressing solar efficiency, energy storage, and grid modernization challenges.</p>
+      <p>The defensive nature and social impact of healthcare real estate make it an attractive allocation for pension funds and insurance companies with long-term liability profiles.</p>
     `
   },
   {
     id: '6',
-    category: 'News',
-    title: 'Federal Reserve Signals Potential Policy Shifts Ahead',
-    excerpt: 'Federal Reserve hints at potential policy shifts affecting market liquidity and investment strategies.',
+    category: 'Market Analysis',
+    title: 'Private Credit Secondary Markets Show Growing Liquidity',
+    excerpt: 'Institutional demand for private credit secondaries reaches $15 billion as asset class matures.',
     author: 'Robert Johnson',
     publishedAt: 'Jan 16, 2024',
     readTime: '4 min read',
-    badgeColor: 'bg-red-500/20 text-red-300',
+    badgeColor: 'bg-blue-500/20 text-blue-300',
     image: 'https://images.unsplash.com/photo-1493397212122-2b85dda8106b',
     heroImage: 'https://images.unsplash.com/photo-1492321936769-b49830bc1d1e',
     content: `
-      <p>Federal Reserve Chairman Jerome Powell's latest statements have sent ripples through financial markets, suggesting potential changes to monetary policy that could significantly impact investment strategies across asset classes.</p>
+      <p>The private credit secondary market has reached unprecedented scale with $15 billion in transaction volume in 2023, providing new liquidity options for institutional investors seeking portfolio optimization.</p>
       
-      <h3>Key Policy Signals</h3>
-      <p>In testimony before Congress, Powell indicated that the Fed is closely monitoring inflation trends and employment data, with particular attention to emerging price pressures in the technology and housing sectors.</p>
+      <h3>Market Development</h3>
+      <p>Secondary transactions now occur across the credit spectrum, from direct lending fund interests to individual loan assets. Pricing has become more efficient with dedicated secondary teams at major asset managers providing market making capabilities.</p>
       
-      <p>The Fed's dual mandate of price stability and full employment is being tested as AI-driven productivity gains create complex economic dynamics that traditional monetary policy tools may struggle to address.</p>
+      <p>Institutional sellers increasingly use secondaries for portfolio rebalancing rather than distressed exits, contributing to more stable pricing and transaction flow.</p>
       
-      <h3>Market Implications</h3>
-      <p>Bond markets have already begun pricing in potential rate changes, with the 10-year Treasury yield moving 15 basis points following Powell's comments. Equity markets showed mixed reactions, with growth stocks declining while value and dividend-paying stocks gained ground.</p>
+      <h3>Buyer Dynamics</h3>
+      <p>Secondary buyers include traditional private equity funds, specialized secondary managers, and increasingly, pension funds seeking direct exposure to seasoned portfolios. Pricing typically ranges from 85-95% of net asset value depending on vintage and manager quality.</p>
       
-      <p>Currency markets also reacted strongly, with the dollar strengthening against major trading partners as investors repositioned for potential policy changes.</p>
+      <p>The maturation of secondary markets provides institutional investors with enhanced liquidity management tools while maintaining exposure to private credit returns.</p>
       
-      <h3>Sectoral Impact</h3>
-      <p>Technology companies, particularly those with high debt loads, face headwinds if rates increase. Conversely, financial services companies could benefit from improved net interest margins.</p>
+      <h3>Implications</h3>
+      <p>Growing secondary liquidity reduces the illiquidity premium required by institutional investors, potentially lowering overall cost of capital for private credit strategies while maintaining return profiles.</p>
       
-      <p>Real estate investment trusts (REITs) and utilities—traditional interest rate-sensitive sectors—are already showing volatility as investors reassess valuations in light of potential policy changes.</p>
-      
-      <h3>Investment Strategy</h3>
-      <p>Given this uncertainty, we recommend maintaining a balanced portfolio with reduced duration risk and increased allocation to sectors that typically perform well during monetary policy transitions. Focus on companies with strong balance sheets and pricing power.</p>
-    `
-  },
-  {
-    id: '7',
-    category: 'News',
-    title: 'Q4 Earnings Preview: Key Metrics to Watch',
-    excerpt: 'Key metrics to watch as major corporations report quarterly results in the coming weeks.',
-    author: 'Lisa Anderson',
-    publishedAt: 'Jan 16, 2024',
-    readTime: '5 min read',
-    badgeColor: 'bg-blue-500/20 text-blue-300',
-    image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81',
-    heroImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c',
-    content: `
-      <p>As Q4 2023 earnings season approaches, investors are focusing on specific metrics that will provide insights into corporate health and forward-looking guidance for 2024.</p>
-      
-      <h3>Critical Metrics to Monitor</h3>
-      <p>Revenue growth acceleration or deceleration will be particularly important given the mixed economic signals throughout Q4. Companies that maintained pricing power despite inflationary pressures will likely see premium valuations.</p>
-      
-      <p>Margin expansion or compression will reveal which companies successfully navigated supply chain challenges and labor cost increases. Technology companies face particular scrutiny regarding their AI investment ROI.</p>
-      
-      <h3>Sector-Specific Focus Areas</h3>
-      <p>For technology companies, investors will scrutinize cloud growth rates, AI integration progress, and subscription renewal rates. Hardware companies face questions about inventory levels and component cost management.</p>
-      
-      <p>Financial services companies will be evaluated on loan growth, credit quality, and net interest margin trends. Regional banks face particular attention regarding commercial real estate exposure.</p>
-      
-      <h3>Forward Guidance</h3>
-      <p>Given economic uncertainty, management guidance for 2024 will carry extra weight. Companies providing specific, achievable targets while acknowledging risks will likely outperform those offering vague or overly optimistic projections.</p>
-      
-      <p>Capital allocation strategies—particularly regarding AI investments, acquisitions, and shareholder returns—will significantly influence investor sentiment.</p>
-      
-      <h3>Expected Surprises</h3>
-      <p>We anticipate positive surprises from companies that have conservative guidance but benefited from Q4 cost reduction initiatives. Conversely, companies with high expectations may disappoint if they cannot demonstrate clear AI monetization strategies.</p>
-      
-      <p>International exposure will be another key differentiator, with companies having strong Asian operations potentially showing better-than-expected results.</p>
-    `
-  },
-  {
-    id: '8',
-    category: 'News',
-    title: 'Cryptocurrency Regulation Framework Finalized',
-    excerpt: 'New regulatory framework provides clarity for institutional cryptocurrency adoption and investment strategies.',
-    author: 'Alex Rivera',
-    publishedAt: 'Jan 15, 2024',
-    readTime: '4 min read',
-    badgeColor: 'bg-purple-500/20 text-purple-300',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5',
-    heroImage: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    content: `
-      <p>After months of consultation and deliberation, regulators have finalized a comprehensive framework for cryptocurrency investments, providing the clarity institutional investors have been seeking.</p>
-      
-      <h3>Key Regulatory Components</h3>
-      <p>The new framework establishes clear guidelines for custody requirements, risk management protocols, and disclosure standards for institutions investing in digital assets.</p>
-      
-      <p>Most significantly, the regulation provides a pathway for pension funds and insurance companies to allocate up to 5% of their portfolios to approved cryptocurrency investments.</p>
-      
-      <h3>Market Response</h3>
-      <p>Bitcoin and Ethereum prices surged 12% and 15% respectively following the announcement, with institutional trading volumes reaching record highs. Several major investment banks have already announced plans to launch cryptocurrency trading desks.</p>
-      
-      <p>The regulatory clarity has also sparked interest in cryptocurrency infrastructure companies, with several firms experiencing significant valuation increases.</p>
-      
-      <h3>Investment Implications</h3>
-      <p>This regulatory framework removes a major barrier to institutional cryptocurrency adoption. We expect significant capital flows into the space over the next 12-18 months as institutions develop their digital asset strategies.</p>
-      
-      <p>Focus areas include custody solutions, trading infrastructure, and compliance technology—all sectors likely to benefit from increased institutional participation in cryptocurrency markets.</p>
-    `
-  },
-  {
-    id: '9',
-    category: 'Profiles',
-    title: 'Sarah Chen: Pioneering Quantum Computing in Finance',
-    excerpt: 'Leading the charge in quantum computing applications for financial modeling and risk assessment.',
-    author: 'Thomas Wilson',
-    publishedAt: 'Jan 13, 2024',
-    readTime: '6 min read',
-    badgeColor: 'bg-purple-500/20 text-purple-300',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158',
-    heroImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7',
-    content: `
-      <p>Sarah Chen, CEO of InnovateTech, is at the forefront of applying quantum computing to financial services, developing solutions that could revolutionize risk management and portfolio optimization.</p>
-      
-      <h3>Background and Vision</h3>
-      <p>With a PhD in Quantum Physics from MIT and previous experience at Goldman Sachs' quantitative trading division, Chen uniquely understands both the technical possibilities and practical limitations of quantum computing in finance.</p>
-      
-      <p>Under her leadership, InnovateTech has developed quantum algorithms that can process complex portfolio optimization problems 1000x faster than classical computers.</p>
-      
-      <h3>Breakthrough Applications</h3>
-      <p>InnovateTech's quantum risk modeling platform is currently being piloted by three major investment banks. The technology can simulate thousands of market scenarios simultaneously, providing unprecedented insights into portfolio risk under extreme market conditions.</p>
-      
-      <p>The company's quantum machine learning algorithms have achieved 94% accuracy in predicting market volatility—a significant improvement over traditional models.</p>
-      
-      <h3>Industry Impact</h3>
-      <p>Chen's work is reshaping how financial institutions approach computational challenges. Her quantum algorithms for derivatives pricing have reduced calculation times from hours to minutes while improving accuracy.</p>
-      
-      <p>Major hedge funds are now investing heavily in quantum computing capabilities, largely inspired by InnovateTech's demonstrated results.</p>
-      
-      <h3>Future Vision</h3>
-      <p>Chen believes quantum computing will become standard in financial services within five years. She's currently working on quantum cryptography solutions to secure financial transactions in a post-quantum world.</p>
-      
-      <p>Her latest project involves developing quantum algorithms for high-frequency trading that could process market data and execute trades at previously impossible speeds.</p>
-      
-      <h3>Investment Implications</h3>
-      <p>InnovateTech's success under Chen's leadership highlights the investment potential in quantum computing applications. The company is reportedly considering an IPO in 2025, which could provide public market investors access to this transformative technology.</p>
-    `
-  },
-  {
-    id: '10',
-    category: 'Profiles',
-    title: 'Nexus Dynamics: Disrupting Private Equity with AI',
-    excerpt: '$12B fund focusing on disruptive technology investments across emerging markets using AI-driven analysis.',
-    author: 'Maria Santos',
-    publishedAt: 'Jan 11, 2024',
-    readTime: '5 min read',
-    badgeColor: 'bg-blue-500/20 text-blue-300',
-    image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be',
-    heroImage: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04',
-    content: `
-      <p>Nexus Dynamics has emerged as a leading force in private equity, leveraging artificial intelligence and machine learning to identify and evaluate investment opportunities across emerging markets.</p>
-      
-      <h3>AI-Driven Investment Approach</h3>
-      <p>The firm's proprietary AI platform analyzes thousands of data points across potential investments, from financial metrics to social media sentiment and satellite imagery of industrial facilities.</p>
-      
-      <p>This technology-first approach has enabled Nexus to identify high-growth opportunities 18 months earlier than traditional due diligence methods, resulting in superior returns for their limited partners.</p>
-      
-      <h3>Emerging Market Focus</h3>
-      <p>Nexus Dynamics specializes in emerging markets across Southeast Asia, Latin America, and Africa. Their AI models are particularly effective in these regions where traditional financial data may be limited or unreliable.</p>
-      
-      <p>The firm has completed 47 investments across 12 countries, with an average IRR of 34% and multiple successful exits including three unicorn companies.</p>
-      
-      <h3>Technology Infrastructure</h3>
-      <p>The firm employs a team of 25 data scientists and engineers who continuously refine their investment algorithms. Their platform processes over 10 million data points daily from various sources including financial databases, news feeds, and alternative data providers.</p>
-      
-      <p>Machine learning models are retrained quarterly using new market data and exit outcomes, continuously improving prediction accuracy.</p>
-      
-      <h3>Portfolio Companies</h3>
-      <p>Nexus's portfolio includes breakthrough companies in fintech, healthtech, and clean energy. Recent investments include a Southeast Asian super-app that has grown to 50 million users and a Brazilian renewable energy company that has reduced solar installation costs by 40%.</p>
-      
-      <h3>Future Strategy</h3>
-      <p>The firm is currently raising their third fund, targeting $18 billion to expand their AI-driven approach globally. They plan to hire additional technology talent and open offices in three new emerging markets by 2025.</p>
-    `
-  },
-  {
-    id: '11',
-    category: 'Investment Strategy',
-    title: 'Sectoral Rotation Strategy: Navigating Economic Cycles',
-    excerpt: 'Tactical approach to capitalizing on economic cycle transitions through strategic sector allocation.',
-    author: 'Mark Stevens',
-    publishedAt: 'Jan 11, 2024',
-    readTime: '7 min read',
-    badgeColor: 'bg-green-500/20 text-green-300',
-    image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05',
-    heroImage: 'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3',
-    content: `
-      <p>Sectoral rotation strategies have gained renewed relevance as economic cycles become more pronounced and sector performance diverges significantly based on macroeconomic conditions.</p>
-      
-      <h3>Strategy Foundation</h3>
-      <p>The core principle involves systematically shifting portfolio allocation among different economic sectors based on where we are in the economic cycle. Each sector performs differently during expansion, peak, contraction, and recovery phases.</p>
-      
-      <p>Our current economic indicators suggest we're transitioning from late-cycle expansion to early contraction, making this an opportune time to implement sectoral rotation.</p>
-      
-      <h3>Current Positioning</h3>
-      <p>Given current economic conditions, we're overweighting defensive sectors like utilities, consumer staples, and healthcare while reducing exposure to cyclical sectors like industrials and materials.</p>
-      
-      <p>Technology requires nuanced approach—while cyclical overall, AI and cloud infrastructure companies may outperform due to secular growth trends.</p>
-      
-      <h3>Key Indicators</h3>
-      <p>We monitor several leading indicators for rotation timing: yield curve shape, credit spreads, employment trends, and consumer confidence. Our proprietary model combines these factors to generate sector allocation signals.</p>
-      
-      <p>Recent data suggests defensive positioning is appropriate, with particular emphasis on sectors benefiting from infrastructure spending and energy transition.</p>
-      
-      <h3>Risk Management</h3>
-      <p>Sectoral rotation requires careful risk management to avoid whipsaws during uncertain periods. We use momentum indicators and maintain minimum allocation thresholds to prevent excessive concentration.</p>
-      
-      <p>Diversification within sectors is crucial—even defensive sectors contain companies with varying risk profiles and growth trajectories.</p>
-      
-      <h3>Expected Returns</h3>
-      <p>Historical analysis suggests well-executed sectoral rotation can add 3-5% annual alpha compared to static allocation strategies. Current positioning targets 12-18% annual returns with moderate risk levels.</p>
-      
-      <p>Success depends on accurate cycle timing and disciplined rebalancing—emotional decision-making is the strategy's biggest risk factor.</p>
-    `
-  },
-  {
-    id: '12',
-    category: 'Investment Strategy', 
-    title: 'ESG-Focused Value Play: Finding Hidden Gems',
-    excerpt: 'Identifying undervalued companies with strong ESG credentials positioned for long-term outperformance.',
-    author: 'Rachel Martinez',
-    publishedAt: 'Jan 10, 2024',
-    readTime: '6 min read',
-    badgeColor: 'bg-blue-500/20 text-blue-300',
-    image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b',
-    heroImage: 'https://images.unsplash.com/photo-1500673922987-e212871fec22',
-    content: `
-      <p>The intersection of value investing and ESG principles is creating unique opportunities for patient investors willing to look beyond short-term market inefficiencies.</p>
-      
-      <h3>Strategy Overview</h3>
-      <p>Our ESG-focused value strategy targets companies trading below intrinsic value while demonstrating strong environmental, social, and governance practices. These companies often outperform over longer time horizons as ESG factors become increasingly important to stakeholders.</p>
-      
-      <p>The strategy leverages market myopia around ESG investments, where short-term focused investors may undervalue companies making necessary sustainability investments.</p>
-      
-      <h3>Screening Process</h3>
-      <p>We begin with traditional value screens—low P/E ratios, strong balance sheets, and consistent cash flow generation. We then overlay ESG criteria including carbon footprint reduction plans, diversity metrics, and governance structures.</p>
-      
-      <p>Our proprietary ESG scoring model incorporates both current practices and improvement trajectories, identifying companies making genuine progress rather than just those with perfect current scores.</p>
-      
-      <h3>Current Holdings Examples</h3>
-      <p>Recent additions include a European utility company trading at 8x earnings while investing heavily in renewable energy infrastructure, and a consumer goods company with strong emerging market exposure that has improved its supply chain sustainability metrics by 40%.</p>
-      
-      <p>These companies typically face short-term headwinds from ESG investments but are positioning for long-term competitive advantages.</p>
-      
-      <h3>Performance Expectations</h3>
-      <p>Historical backtesting suggests this strategy can deliver 8-14% annual returns with lower volatility than pure value approaches. The ESG overlay provides downside protection during market stress periods.</p>
-      
-      <p>We expect outperformance to accelerate as regulatory changes and consumer preferences increasingly favor ESG-compliant companies.</p>
+      <p>We expect secondary market growth to accelerate as institutional allocations mature and regulatory frameworks evolve to accommodate private market liquidity solutions.</p>
     `
   }
 ];
 
-type FilterCategory = 'All Articles' | 'Market Trends' | 'Key Deals' | 'Investment Strategy' | 'Profiles' | 'News';
-
-const filterOptions: { label: FilterCategory; icon: any; count?: number }[] = [
-  { label: 'All Articles', icon: FileText },
-  { label: 'Market Trends', icon: TrendingUp },
-  { label: 'Key Deals', icon: Target },
-  { label: 'Investment Strategy', icon: Briefcase },
-  { label: 'Profiles', icon: Users },
-  { label: 'News', icon: Newspaper },
+const categories = [
+  { name: 'All', icon: Newspaper },
+  { name: 'Credit Analysis', icon: TrendingUp },
+  { name: 'Market Trends', icon: Target },
+  { name: 'Regulatory Impact', icon: Briefcase },
+  { name: 'Technology Sector', icon: Users },
+  { name: 'Healthcare Finance', icon: FileText },
+  { name: 'Market Analysis', icon: Newspaper }
 ];
 
 export default function Analysis() {
+  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [searchTerm, setSearchTerm] = useState('');
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
-  const [activeFilter, setActiveFilter] = useState<FilterCategory>('All Articles');
-  const [searchQuery, setSearchQuery] = useState('');
 
   const filteredArticles = useMemo(() => {
-    let filtered = articles;
-    
-    // Filter by category
-    if (activeFilter !== 'All Articles') {
-      filtered = filtered.filter(article => article.category === activeFilter);
-    }
-    
-    // Filter by search query
-    if (searchQuery) {
-      filtered = filtered.filter(article => 
-        article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.author.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    }
-    
-    return filtered;
-  }, [activeFilter, searchQuery]);
+    return articles.filter(article => {
+      const matchesCategory = selectedCategory === 'All' || article.category === selectedCategory;
+      const matchesSearch = article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           article.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           article.author.toLowerCase().includes(searchTerm.toLowerCase());
+      return matchesCategory && matchesSearch;
+    });
+  }, [selectedCategory, searchTerm]);
 
-  const getCategoryCount = (category: FilterCategory) => {
-    if (category === 'All Articles') return articles.length;
-    return articles.filter(article => article.category === category).length;
-  };
-
-  const openArticle = (article: Article) => {
+  const handleArticleClick = (article: Article) => {
     setSelectedArticle(article);
   };
 
-  const closeArticle = () => {
+  const handleCloseModal = () => {
     setSelectedArticle(null);
   };
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen font-primary bg-background">
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-12 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
-            Market Analysis
-          </h1>
-          <p className="text-xl text-white/70 max-w-3xl mx-auto mb-8">
-            Comprehensive insights, trends, and strategic intelligence for informed investment decisions
-          </p>
-          
-          {/* Search Bar */}
-          <div className="relative max-w-2xl mx-auto mb-8">
-            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white/60 h-5 w-5" />
-            <Input
-              placeholder="Search articles..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-12 pr-4 py-3 bg-gray-900/50 border-gray-700 text-white placeholder:text-white/60 focus:border-green-500 focus:ring-green-500/20"
-            />
+      <section className="relative pt-32 pb-20 overflow-hidden bg-background">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-20">
+          <svg viewBox="0 0 1200 800" className="absolute inset-0 w-full h-full">
+            <path d="M0,400 C400,200 800,600 1200,300 L1200,800 L0,800 Z" fill="url(#analysisWave)" />
+            <defs>
+              <linearGradient id="analysisWave" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="hsl(220 70% 50%)" stopOpacity="0.4" />
+                <stop offset="50%" stopColor="hsl(45 100% 65%)" stopOpacity="0.3" />
+                <stop offset="100%" stopColor="hsl(220 60% 25%)" stopOpacity="0.2" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+        {/* Floating Elements */}
+        <div className="absolute top-20 left-10 w-32 h-32 bg-accent-gold/10 rounded-2xl rotate-12 animate-float"></div>
+        <div className="absolute top-40 right-16 w-24 h-24 bg-accent-blue/10 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-32 left-1/4 w-20 h-20 bg-accent-platinum/10 rounded-lg -rotate-12 animate-float" style={{ animationDelay: '2s' }}></div>
+        
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="text-center max-w-4xl mx-auto">
+            <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-8 leading-tight">
+              Credit Market
+              <span className="block bg-gradient-text bg-clip-text text-transparent">
+                Analysis
+              </span>
+            </h1>
+            <p className="text-xl md:text-2xl text-accent-platinum mb-12 leading-relaxed">
+              Deep insights into private debt markets, credit strategies, and industry trends 
+              shaping the institutional investing landscape.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Filter Navigation */}
-      <section className="pb-8 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap gap-2 md:gap-4 justify-center">
-            {filterOptions.map((filter) => {
-              const isActive = activeFilter === filter.label;
-              const count = getCategoryCount(filter.label);
-              const Icon = filter.icon;
-              
-              return (
-                <Button
-                  key={filter.label}
-                  variant={isActive ? "default" : "ghost"}
-                  onClick={() => setActiveFilter(filter.label)}
-                  className={`
-                    flex items-center gap-2 px-4 py-2 rounded-full transition-all duration-300
-                    ${isActive 
-                      ? 'bg-green-500 text-black hover:bg-green-400' 
-                      : 'text-white/70 hover:text-white hover:bg-gray-800/50 border border-gray-700'
-                    }
-                  `}
-                >
-                  <Icon className="h-4 w-4" />
-                  <span className="font-medium">{filter.label}</span>
-                  <span className={`text-xs px-2 py-0.5 rounded-full ${isActive ? 'bg-black/20 text-black' : 'bg-gray-700 text-white/60'}`}>
-                    {count}
-                  </span>
-                </Button>
-              );
-            })}
+      {/* Search and Filters */}
+      <section className="py-12 bg-background">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row gap-6 mb-12">
+            <div className="flex-1">
+              <div className="relative">
+                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-accent-platinum w-5 h-5" />
+                <Input
+                  type="text"
+                  placeholder="Search articles, authors, or topics..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="pl-12 bg-card/50 border-accent-gold/20 text-white placeholder:text-accent-platinum focus:border-accent-gold"
+                />
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {categories.map((category) => {
+                const IconComponent = category.icon;
+                return (
+                  <Button
+                    key={category.name}
+                    variant={selectedCategory === category.name ? "default" : "outline"}
+                    onClick={() => setSelectedCategory(category.name)}
+                    className={`${
+                      selectedCategory === category.name
+                        ? 'bg-gradient-button text-accent-foreground'
+                        : 'border-accent-gold/30 bg-card/50 text-accent-platinum hover:bg-accent-gold/10'
+                    }`}
+                  >
+                    <IconComponent className="w-4 h-4 mr-2" />
+                    {category.name}
+                  </Button>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
 
       {/* Articles Grid */}
-      <section className="pb-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          {filteredArticles.length > 0 ? (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredArticles.map((article) => (
-                <Card 
-                  key={article.id}
-                  className="bg-gray-900/50 backdrop-blur-sm border-gray-800 hover:border-green-500/30 transition-all duration-300 cursor-pointer hover:-translate-y-1 group overflow-hidden"
-                  onClick={() => openArticle(article)}
-                >
-                  <div className="relative h-48 overflow-hidden">
-                    <img 
-                      src={article.image} 
-                      alt={article.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                    <Badge variant="secondary" className={`absolute top-4 left-4 ${article.badgeColor}`}>
+      <section className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+            {filteredArticles.map((article) => (
+              <Card 
+                key={article.id}
+                className="group cursor-pointer hover:shadow-gold transition-all duration-300 hover:-translate-y-2 bg-card/50 backdrop-blur-sm border-accent-gold/20 overflow-hidden"
+                onClick={() => handleArticleClick(article)}
+              >
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={article.image} 
+                    alt={article.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <CardHeader>
+                  <div className="flex items-center justify-between mb-3">
+                    <Badge className={article.badgeColor}>
                       {article.category}
                     </Badge>
+                    <div className="text-sm text-accent-platinum">{article.readTime}</div>
                   </div>
-                  <CardHeader className="pb-3">
-                    <CardTitle className="text-white line-clamp-2">{article.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-white/70 mb-4 line-clamp-3">{article.excerpt}</p>
-                    <div className="flex items-center justify-between text-sm">
-                      <div className="flex items-center gap-2 text-white/60">
-                        <User className="h-4 w-4" />
-                        <span>{article.author}</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-white/60">
-                        <Clock className="h-4 w-4" />
-                        <span>{article.readTime}</span>
-                      </div>
+                  <CardTitle className="text-xl font-bold text-white group-hover:text-accent-gold transition-colors leading-tight">
+                    {article.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-accent-platinum mb-4 leading-relaxed">
+                    {article.excerpt}
+                  </CardDescription>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center text-sm text-accent-platinum">
+                      <User className="w-4 h-4 mr-2" />
+                      {article.author}
                     </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          ) : (
-            <div className="text-center py-20">
-              <div className="text-white/60 text-lg mb-4">No articles found</div>
-              <p className="text-white/40">
-                {searchQuery 
-                  ? `No articles match "${searchQuery}" in the ${activeFilter} category.`
-                  : `No articles available in the ${activeFilter} category.`
-                }
-              </p>
-              <Button 
-                variant="ghost" 
-                onClick={() => {
-                  setSearchQuery('');
-                  setActiveFilter('All Articles');
-                }}
-                className="mt-4 text-green-400 hover:text-green-300"
-              >
-                Clear filters
-              </Button>
-            </div>
-          )}
+                    <div className="flex items-center text-sm text-accent-platinum">
+                      <Calendar className="w-4 h-4 mr-2" />
+                      {article.publishedAt}
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Article Modal */}
-      <Dialog open={!!selectedArticle} onOpenChange={closeArticle}>
-        <DialogContent className="max-w-5xl max-h-[90vh] bg-black border-gray-800 text-white overflow-y-auto">
+      <Dialog open={!!selectedArticle} onOpenChange={handleCloseModal}>
+        <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto bg-background border-accent-gold/20">
           {selectedArticle && (
             <>
-              {/* Hero Image */}
-              <div className="relative h-64 md:h-80 -m-6 mb-6 overflow-hidden">
-                <img 
-                  src={selectedArticle.heroImage || selectedArticle.image} 
-                  alt={selectedArticle.title}
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                <div className="absolute bottom-6 left-6 right-6">
-                  <Badge variant="secondary" className={`mb-4 ${selectedArticle.badgeColor}`}>
-                    {selectedArticle.category}
-                  </Badge>
-                  <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                    {selectedArticle.title}
-                  </h1>
-                </div>
+              <DialogHeader>
                 <Button
                   variant="ghost"
                   size="sm"
-                  onClick={closeArticle}
-                  className="absolute top-4 right-4 text-white hover:text-green-300 bg-black/20 hover:bg-black/40"
+                  onClick={handleCloseModal}
+                  className="absolute left-4 top-4 text-accent-platinum hover:text-white"
                 >
-                  <ArrowLeft className="h-4 w-4 mr-2" />
+                  <ArrowLeft className="w-4 h-4 mr-2" />
                   Back
                 </Button>
-              </div>
+              </DialogHeader>
               
-              <div className="px-6 pb-6">
-                <div className="flex items-center gap-4 text-sm text-white/60 mb-6">
-                  <div className="flex items-center gap-2">
-                    <User className="h-4 w-4" />
-                    <span>{selectedArticle.author}</span>
+              <div className="pt-12">
+                {selectedArticle.heroImage && (
+                  <div className="aspect-video mb-8 overflow-hidden rounded-lg">
+                    <img 
+                      src={selectedArticle.heroImage} 
+                      alt={selectedArticle.title}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Calendar className="h-4 w-4" />
-                    <span>{selectedArticle.publishedAt}</span>
+                )}
+                
+                <div className="mb-6">
+                  <Badge className={selectedArticle.badgeColor}>
+                    {selectedArticle.category}
+                  </Badge>
+                </div>
+                
+                <DialogTitle className="text-3xl font-display font-bold text-white mb-6 leading-tight">
+                  {selectedArticle.title}
+                </DialogTitle>
+                
+                <div className="flex items-center space-x-6 mb-8 text-accent-platinum">
+                  <div className="flex items-center">
+                    <User className="w-4 h-4 mr-2" />
+                    {selectedArticle.author}
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Clock className="h-4 w-4" />
-                    <span>{selectedArticle.readTime}</span>
+                  <div className="flex items-center">
+                    <Calendar className="w-4 h-4 mr-2" />
+                    {selectedArticle.publishedAt}
+                  </div>
+                  <div className="flex items-center">
+                    <Clock className="w-4 h-4 mr-2" />
+                    {selectedArticle.readTime}
                   </div>
                 </div>
+                
                 <div 
-                  className="prose prose-invert prose-lg max-w-none text-white/90 leading-relaxed"
+                  className="prose prose-lg prose-invert max-w-none"
                   dangerouslySetInnerHTML={{ __html: selectedArticle.content }}
                 />
               </div>
@@ -660,5 +429,5 @@ export default function Analysis() {
 
       <Footer />
     </div>
-  )
+  );
 }

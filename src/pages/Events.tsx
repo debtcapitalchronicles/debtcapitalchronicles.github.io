@@ -6,48 +6,48 @@ import { Calendar, MapPin, Users, ArrowRight, Trophy, Briefcase } from "lucide-r
 
 const upcomingEvents = [
   {
-    title: "Hedge Fund Strategies Summit",
+    title: "Private Debt Markets Summit",
     date: "March 15-17, 2024",
     location: "New York, NY",
     attendees: "1,200+",
-    description: "Premier gathering of hedge fund managers, institutional investors, and capital allocators discussing alpha generation strategies and market outlook.",
+    description: "Premier gathering of private debt managers, institutional investors, and capital allocators discussing direct lending strategies and credit market outlook.",
     type: "Summit",
-    category: "Multi-Strategy"
+    category: "Direct Lending"
   },
   {
-    title: "Alternative Beta Conference",
+    title: "Credit Opportunities Conference",
     date: "April 8, 2024",
     location: "London, UK",
     attendees: "800+",
-    description: "Deep dive into systematic trading strategies, quantitative methods, and risk management with leading hedge fund practitioners.",
+    description: "Deep dive into private credit strategies, portfolio construction, and risk management with leading institutional lenders.",
     type: "Conference",
-    category: "Quantitative"
+    category: "Private Credit"
   },
   {
-    title: "Long/Short Equity Forum",
+    title: "Infrastructure Debt Forum",
     date: "April 22, 2024",
     location: "Hong Kong",
     attendees: "600+",
-    description: "Exclusive forum for equity hedge fund managers to share insights on position sizing, risk management, and alpha identification.",
+    description: "Exclusive forum for infrastructure debt managers to share insights on asset selection, tenor optimization, and ESG integration.",
     type: "Forum",
-    category: "Equity"
+    category: "Infrastructure"
   },
   {
-    title: "Credit & Distressed Investing Symposium",
+    title: "Distressed Credit Symposium",
     date: "May 12, 2024",
     location: "Chicago, IL",
     attendees: "450+",
-    description: "Focused event on credit hedge fund strategies, distressed investing opportunities, and structured credit market dynamics.",
+    description: "Focused event on distressed credit opportunities, special situations investing, and restructuring dynamics in private markets.",
     type: "Symposium",
-    category: "Credit"
+    category: "Distressed"
   }
 ]
 
 const eventCategories = [
-  { name: "Multi-Strategy Events", count: "12", color: "accent-gold", icon: Trophy },
-  { name: "Quant Forums", count: "8", color: "accent-blue", icon: Briefcase },
-  { name: "Equity Conferences", count: "15", color: "accent-platinum", icon: Calendar },
-  { name: "Credit Symposiums", count: "6", color: "accent-navy", icon: Users }
+  { name: "Private Credit Events", count: "18", color: "accent-gold", icon: Trophy },
+  { name: "Direct Lending Forums", count: "12", color: "accent-blue", icon: Briefcase },
+  { name: "Infrastructure Conferences", count: "8", color: "accent-platinum", icon: Calendar },
+  { name: "Distressed Symposiums", count: "6", color: "accent-navy", icon: Users }
 ]
 
 export default function Events() {
@@ -79,14 +79,14 @@ export default function Events() {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-8 leading-tight">
-              Hedge Fund
+              Private Debt
               <span className="block bg-gradient-text bg-clip-text text-transparent">
                 Events
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-accent-platinum mb-12 leading-relaxed">
-              Connect with leading hedge fund managers and institutional investors through premier 
-              conferences, strategy forums, and exclusive networking opportunities.
+              Connect with leading private debt managers and institutional investors through premier 
+              conferences, credit strategy forums, and exclusive networking opportunities.
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function Events() {
               Upcoming Events
             </h2>
             <p className="text-xl text-accent-platinum">
-              Premier gatherings for hedge fund professionals and institutional investors
+              Premier gatherings for private debt professionals and institutional investors
             </p>
           </div>
 
@@ -162,7 +162,7 @@ export default function Events() {
               Event Categories
             </h2>
             <p className="text-xl text-accent-platinum">
-              Specialized events by hedge fund strategy and focus area
+              Specialized events by private debt strategy and asset class
             </p>
           </div>
 
@@ -205,7 +205,7 @@ export default function Events() {
                 <Users className="w-8 h-8 text-accent-gold" />
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Elite Network Access</h3>
-              <p className="text-accent-platinum">Connect with top-tier hedge fund managers, institutional investors, and industry thought leaders.</p>
+              <p className="text-accent-platinum">Connect with top-tier private debt managers, institutional investors, and industry thought leaders.</p>
             </div>
             
             <div className="text-center p-8 bg-card/50 backdrop-blur-sm rounded-lg shadow-lift border border-accent-gold/20">
@@ -213,7 +213,7 @@ export default function Events() {
                 <Trophy className="w-8 h-8 text-accent-blue" />
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Strategy Insights</h3>
-              <p className="text-accent-platinum">Gain exclusive insights into successful hedge fund strategies and market positioning techniques.</p>
+              <p className="text-accent-platinum">Gain exclusive insights into successful private debt strategies and credit market positioning techniques.</p>
             </div>
             
             <div className="text-center p-8 bg-card/50 backdrop-blur-sm rounded-lg shadow-lift border border-accent-gold/20">
